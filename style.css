@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Sarala:wght@700&display=swap');
+
+ *{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: rgb(255,205,0);
+    background: linear-gradient(90deg, rgba(255,205,0,1) 0%, rgba(255,205,0,1) 55%, rgba(255,205,0,1) 100%);
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 24px;
+}
+
+.cabecalho-logo{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Bebas Neue', cursive;
+    color: #8b008b; 
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.conteudo{
+    border-top: 2px solid white; 
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.conteudo-principal-escrito-titulo{
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    align-self: center;
+    font-weight: 400;
+    font-size: 45px;
+    color: #8b008b;
+}
+
+.conteudo-principal-escrito-texto{
+    display: flex;
+    align-self: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #4B0082;
+    text-align: center;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    align-self: center;
+    font-weight: 400;
+    font-size: 25px;
+    color: #8b008b;
+    
+}
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    margin-top: 80px;
+   }
+   
+   .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #8b008b;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+   }
+   
+   .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: whitesmoke;
+   }
+   
+   .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke:  rgb(255,205,0);
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover:before {
+    width: 100%;
+    background: #8b008b;
+   }
+   
+
+   .cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .cta:active {
+    transform: scale(0.95);
+   }
+
+   .cta:hover span{
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color:rgb(255,205,0) ;
+   }
+
+
