@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Playfair+Display+SC:wght@900&family=Yeseva+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(62, 32, 15, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+}
+
+header {
+  margin-top: 2em;
+  border-bottom: 1px solid #ab937aff;
+  padding-bottom: 2em;
+}
+
+nav {
+  display: flex;
+  gap: 4em;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.titulo {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  align-items: center;
+  color: #ab937aff;
+  gap: 5em;
+  margin-top: 1em;
+}
+
+.img-content {
+  margin-left: 47%;
+}
+
+.nav {
+  display: flex;
+}
+
+#nav {
+  font-family: "Bebas Neue", cursive;
+  color: #ab937aff;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#logo {
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.container-lista {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 2% 0 2% 40%;
+  padding: 0;
+  line-height: 1.5;
+  border: 2px solid #ab937aff;
+  width: 20%;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 30px;
+  color: #ab937aff;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  margin-top: 2em;
+  line-height: 1.5;
+}
+
+.questao {
+  font-size: 45px;
+}
+
+.montanha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emoji-pensando {
+  margin-left: 48%;
+}
+
+@media (max-width: 1500px) {
+  .montanha {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#txt-destaque {
+  background-color: #b07b00;
+  padding-bottom: 0;
+  color: #ffecbf;
+}
+
+#google {
+  padding-top: 0.5em;
+}
+
+#anisotropia {
+  background-color: #b07b00;
+  color: #ffecbf;
+  font-family: "Yeseva One", cursive;
+  font-size: 20px;
+}
+
+#title-entendeu {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  color: #f0e9e4;
+  font-size: 50px;
+  margin-top: 1em;
+  border: 2px solid #b07b00;
+  width: 8em;
+  border-radius: 20px;
+  margin-left: 36%;
+  background-color: #b07b00;
+}
+
+#text-esclarecer {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+#img-joinha {
+  padding-bottom: 1em;
+}
